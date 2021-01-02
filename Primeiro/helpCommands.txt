@@ -1,0 +1,13 @@
+Crtl + k + D    format
+fn + f5 roda
+ctr + mouse Scroll  Fonte
+
+Crtl +  D  copia a linha
+
+cw tab tab   Console.WriteLine
+
+prop tab tab  cria propriedade set get
+
+Debug
+
+f9 marca onde parar, F10 continua, f11 entra na funcao

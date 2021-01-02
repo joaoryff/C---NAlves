@@ -1,0 +1,65 @@
+ long n4 = 2147483648L;  "L" para dizer que he long  e "F" Float se acha que he double
+
+new6.ToString("F2"); "F2"  Para arrendondar para 2 casas, F4 F5...
+
+n6.ToString("F4", CultureInfo.InvariantCulture)  ignora o pais (vira ponto)
+
+formas de display:
+
+            Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F4} reais", nome, x, n6);
+            
+            return $"Funcionario da id {id} de Nome {nome} tem o salario de {salario:F2} reais";
+
+
+            Console.WriteLine(nome + " tem " + x + "tem" + n6.ToString("F2"));
+
+Avisar que tem decimal e casting
+  double n4 = (double)10 / 8;
+  double n5 = 10.0 / 8;
+
+salva em um array os itens separados pelo envio
+string[] vet = Console.ReadLine().Split(' ');
+
+Formas de conversao
+
+ int n1 = Convert.ToInt32(Console.ReadLine());
+ int n2 = int.Parse(Console.ReadLine());
+
+
+cuidado
+
+if else  ele ja exclui o if de cima.
+
+
+
+Autos (v importantes) local (todas variaveis)
+
+
+soma = soma + valor  / soma += valor
+
+
+esta dentro nao precisa especificar entrada de valor
+
+namespace Course {
+class Triangulo {
+public double A;
+public double B;
+public double C;
+public double Area() {
+double p = (A + B + C) / 2.0;
+return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
+}
+}
+}
+
+Se Null
+
+double a = x ?? 5;
+
+
+
+Matriz
+
+double [,] mat = new double[2,3]; linha , coluna
+
+
